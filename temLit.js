@@ -22,7 +22,7 @@ let lastName = prompt(`Please enter your last name`);
 // let fullName = firstName + " " + lastName;
 // let score = 0;
 
-let fullName = `${firstName} + ${lastName}`;
+let fullName = `${firstName} ${lastName}`;
 let score = 0;
 
 
@@ -30,7 +30,7 @@ let score = 0;
 
 // let highScore = fullName + " " + "has a score of " + score;
 
-let highScore = `${fullName} + has a score of + ${score}`; 
+let highScore = `${fullName} has a score of ${score}`; 
 
 ////////////////////////Pt. 2////////////////////////
 //comment out the lines above then create two var's that hold numbers
